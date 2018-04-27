@@ -1,4 +1,4 @@
-package crawler.example.integration;
+package crawler.example.past;
 
 import com.github.abola.crawler.CrawlerPack;
 import com.mashape.unirest.http.Unirest;

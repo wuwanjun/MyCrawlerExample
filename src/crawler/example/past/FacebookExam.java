@@ -1,4 +1,4 @@
-package crawler.example.exam;
+package crawler.example.past;
 
 import com.github.abola.crawler.CrawlerPack;
 import org.jsoup.nodes.Element;
