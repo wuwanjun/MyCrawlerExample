@@ -20,7 +20,7 @@ public class BasicExample {
 		CrawlerPack.setLoggerLevel(SimpleLog.LOG_LEVEL_OFF);
 
 		// 遠端資料路徑
-		String uri = "http://.../";
+		String uri = "zip:http://plvr.land.moi.gov.tw//Download?type=zip&fileName=lvr_landxml.zip!/A_LVR_LAND_A.XML";
 
 		System.out.println(
 				CrawlerPack.start()
@@ -30,8 +30,8 @@ public class BasicExample {
 				//.setRemoteEncoding("big5")// 設定遠端資料文件編碼
 				
 				// 選擇資料格式 (三選一)
-				.getFromJson(uri)
-			    //.getFromHtml(uri)
+				//.getFromJson(uri)
+			    .getFromHtml(uri)
 			    //.getFromXml(uri)
 			    
 			    // 這兒開始是 Jsoup Document 物件操作
